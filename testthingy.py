@@ -81,7 +81,7 @@ if toppingschoice != 0:
     tax_rate = 0.08
     sales_tax = subtotal * tax_rate
     total = subtotal + sales_tax
-    fornow3 =  st.write("Total (including tax): ", total)
+    fornow3 =  st.write("Total (including tax): ", int(total))
     fornow4 = st.write("This includes ", subtotal, " coins for the food and  ", sales_tax, " coins in sales tax.")
 
 if toppingschoice == 0:
