@@ -5,20 +5,11 @@ from PIL import Image
 
 st.set_page_config(page_title="Pizza Bakery", page_icon = ":pizza:")
 st.title("Papa's Pizzeria - Walmart Edition")
-st.header("Menu || Plain Pizzas cost 3 coins.")
 st.subheader("Toppings")
 st.subheader(":chicken: :cheese_wedge: :olive: :pineapple: :pizza:")
 
 
 st.header("Place Your Order")
-#toppings
-pepperoni = st.checkbox("Pepperoni (3 Coins)")
-olives =st.checkbox("Olives (2 Coins).")
-doublecheese =st.checkbox("Double Cheese (4 Coins)")
-chicken = st.checkbox("Chicken (6 Coins)")
-pineapple = st.checkbox("Pineapple (2 Coins)")
-
-
 #base pizza + intialize
 number_of_pizzas  = st.number_input("How many pizzas do you want?", min_value = 0, step=1)
 fornow1 = 0
@@ -31,6 +22,13 @@ if number_of_pizzas>10 and number_of_pizzas<50:
 if number_of_pizzas>50:
     st.write("Excuse me?")
 cost_per_pizza = 3
+
+#toppings
+pepperoni = st.checkbox("Pepperoni (3 Coins)")
+olives =st.checkbox("Olives (2 Coins).")
+doublecheese =st.checkbox("Double Cheese (4 Coins)")
+chicken = st.checkbox("Chicken (6 Coins)")
+pineapple = st.checkbox("Pineapple (2 Coins)")
 
 #choices
 choices = []
