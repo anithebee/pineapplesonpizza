@@ -36,18 +36,23 @@ extracostlist = []
 if pepperoni:
      choices.append('Pepperoni')
      extracostlist.append(3)
+     st.write("hands down best topping.")
 if olives:
      choices.append("Olives")
      extracostlist.append(2)
+     st.write("respectable.")
 if doublecheese:
      choices.append("Double Cheese")
      extracostlist.append(4)
+     st.write("mid topping but ok you do you.")
 if chicken:
      choices.append("Chicken")
      extracostlist.append(6)
+     st.write("100%, good opinion.")
 if pineapple:
      choices.append("Pineapple")
      extracostlist.append(2)
+     st.write("YES YES YES DONT LISTEN TO THOSE HATERS PINEAPPLE IS SUPREME!!!!")
 	
 
 extracost = sum(extracostlist)
