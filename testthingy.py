@@ -5,7 +5,6 @@ from PIL import Image
 
 st.set_page_config(page_title="Pizza Bakery", page_icon = ":pizza:")
 st.title("Papa's Pizzeria - Walmart Edition")
-st.subheader("Toppings")
 st.subheader(":chicken: :cheese_wedge: :olive: :pineapple: :pizza:")
 
 
