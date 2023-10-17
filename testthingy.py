@@ -38,7 +38,7 @@ if pepperoni:
      extracostlist.append(3)
      st.write("pepperoni is hands down the best topping.")
 if olives:
-     choices.append("Olives")
+     choices.append("Olive-Topped")
      extracostlist.append(2)
      st.write("olives are respectable.")
 if doublecheese:
