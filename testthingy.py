@@ -36,19 +36,19 @@ extracostlist = []
 if pepperoni:
      choices.append('Pepperoni')
      extracostlist.append(3)
-     st.write("hands down best topping.")
+     st.write("pepperoni is hands down best topping.")
 if olives:
      choices.append("Olives")
      extracostlist.append(2)
-     st.write("respectable.")
+     st.write("olives are respectable.")
 if doublecheese:
      choices.append("Double Cheese")
      extracostlist.append(4)
-     st.write("mid topping but ok you do you.")
+     st.write("double cheese? mid topping but ok you do you.")
 if chicken:
      choices.append("Chicken")
      extracostlist.append(6)
-     st.write("100%, good opinion.")
+     st.write("chicken is a safe option, good choice.")
 if pineapple:
      choices.append("Pineapple")
      extracostlist.append(2)
