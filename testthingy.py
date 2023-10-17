@@ -36,7 +36,7 @@ extracostlist = []
 if pepperoni:
      choices.append('Pepperoni')
      extracostlist.append(3)
-     st.write("pepperoni is hands down best topping.")
+     st.write("pepperoni is hands down the best topping.")
 if olives:
      choices.append("Olives")
      extracostlist.append(2)
